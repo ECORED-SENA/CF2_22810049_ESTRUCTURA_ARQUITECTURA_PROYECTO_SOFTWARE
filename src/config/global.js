@@ -1,17 +1,34 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Implementar la arquitectura de <em>software<em>.',
+    descripcionCurso:
+      'La arquitectura de <em>software</em> es la base donde se cimienta la estructura de un componente o aplicación de <em>software</em> a desarrollar, por esta razón, está orientada a la comprensión de los conceptos más importantes para tener en cuenta en la construcción de dicha estructura y pretende resolver los requerimientos no funcionales de un <em>software</em>.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/f1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/f2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/f3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/f4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/f5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/f6.png'),
       },
     ],
   },
@@ -32,30 +49,50 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptos del ciclo de vida del <em>software</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Patrones de diseño definición y clasificación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estilos arquitectónicos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Diagramas UML',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Documentación de la arquitectura',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Verificar atributos de calidad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Seguridad - OWASP',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +138,132 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Estilos arquitectónicos',
+      referencia:
+        'Cubic Factory. (s. f.). Editor HTML Online · Editor CSS Online · Editor JavaScript Online.',
+      tipo: 'Página web.',
+      link: 'https://www.cubicfactory.com/jseditor/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Estilos arquitectónicos',
+      referencia:
+        'CodeSandbox: Online Code Editor and IDE for Rapid Web Development.',
+      tipo: 'Página web.',
+      link: 'https://codesandbox.io',
+    },
+    {
+      tema: 'Documentación de la arquitectura',
+      referencia: 'Normas ISO 25000',
+      tipo: 'Página web.',
+      link: 'https://iso25000.com/',
+    },
+    {
+      tema: 'Seguridad - OWASP',
+      referencia: 'OWASP Foundation. (s. f.). Guía de pruebas OWASP.',
+      tipo: 'Página web.',
+      descarga: '/downloads/Guia_de_pruebas_de_OWASP_ver_3.0.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Apache Kafka',
+      significado:
+        '<em>software</em> manejador de eventos o también conocido como motor de eventos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'SDLC',
+      significado: 'Ciclo de vida del desarrollo de software.',
+    },
+    {
+      termino: 'SOA',
+      significado: 'Arquitectura Orientada a Servicios.',
+    },
+    {
+      termino: 'PMV',
+      significado: 'Producto mínimo viable.',
+    },
+    {
+      termino: 'Capa',
+      significado: 'conjunto de clases.',
+    },
+    {
+      termino: 'RPC',
+      significado: 'Llamada a procedimientos remotos.',
+    },
+    {
+      termino: 'IoT',
+      significado: 'Internet de las cosas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Bertucelli, M. (2019). Arquitectura de capas. Somospnt.',
+      link: 'https://somospnt.com/blog/118-arquitectura-de-capas',
+    },
+    {
+      referencia:
+        'Clements, P., Bachmann, F., Bass, L., Garlan, D. y Ivers, J. (2010). Documenting Software Architectures: Views and Beyond. Addison-Wesley Professional.',
       link: '',
+    },
+    {
+      referencia:
+        'Cueva, J. (1999). Calidad del Software. Universidad Nacional de la Pampa.        ',
+      link: '',
+    },
+    {
+      referencia:
+        'Departamento de Ciencia de la Computación e Inteligencia Artificial. (2019). Arquitectura orientada a servicios (SOA). Universidad de Alicante.',
+      link:
+        'http://www.jtech.ua.es/j2ee/2007-2008/restringido/int/sesion02-apuntes.html',
+    },
+    {
+      referencia:
+        'International Organization for Standardization [ISO]. (2022). ISO/IEC/IEEE 29119-1:2022 <em>Software and systems engineering — Software testing — Part 1: General concepts.ISO Store.</em>',
+      link: 'https://www.iso.org/standard/81291.html',
+    },
+    {
+      referencia:
+        'Kruchten, P. (1995). Planos Arquitectónicos: El Modelo de “4+1” Vistas de la Arquitectura del <em>Software</em>. IEEE Software, 12(6), p. 42-50.',
+      link:
+        'http://materias.fi.uba.ar/7510/practica/zips/Modelo4_1Krutchen.pdf',
+    },
+    {
+      referencia:
+        'Larman, C. (2004). <em>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development. Pearson.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'Martínez, M. (2020). ¿Qué son los patrones de diseño de <em>software? Profile</em>. ',
+      link: 'https://profile.es/blog/patrones-de-diseno-de-software/',
+    },
+    {
+      referencia:
+        'Node.js (2022). Node.js assessment of OpenSSL 3 May 2022 security releases.',
+      link: 'https://nodejs.org/en/',
+    },
+    {
+      referencia:
+        'React.js. (2021). React – A JavaScript library for building user interfaces.',
+      link: 'https://reactjs.org/',
+    },
+    {
+      referencia:
+        'Red Hat. (2020). ¿Qué es la arquitectura orientada a los servicios (SOA)?',
+      link:
+        'https://www.redhat.com/es/topics/cloud-native-apps/what-is-service-oriented-architecture',
+    },
+    {
+      referencia:
+        'Schmuller, J. (2000). Aprendiendo UML en 24 horas. Prentice Hall.',
+      link:
+        'https://www.academia.edu/17124068/Aprendiendo_UML_en_24_Horas_Joseph_Schmuller',
+    },
+    {
+      referencia:
+        'Ungoti. (s. f.). Ciclo de vida del desarrollo de <em>software</em>. ',
+      link:
+        'https://ungoti.com/es/soluciones/desarrollo-de-software/sdlc/#:%7E:text=El%20ciclo%20de%20vida%20del,definici%C3%B3n%20de%20los%20requisitos%20hasta',
     },
   ],
   creditos: {
@@ -144,6 +281,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Mario Fernando Meneses Calvache',
+        cargo: 'Experto temático',
+        centro:
+          'Centro Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -153,25 +311,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '---',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '---',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
