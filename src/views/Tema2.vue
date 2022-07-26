@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Patrones de diseño definición y clasificación
+      h1 Introducción a la educción de requisitos
 
     .bg_img_02
       figure(data-aos="zoom-in")
@@ -25,11 +25,11 @@
             .col-auto
               h5.cstmH5_02 Los patrones de diseño pretenden:
           
-          SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade")
+          SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-6")(data-aos="fade")
             .crd.bg--white.brd--rad_02.shadow.p-4
               figure.mb-4
                 img(src="@/assets/curso/temas/t2/t2_03.svg", alt="alt").img90.m-auto               
-              p.text-center.mb-0 Proporcionar catálogos de elementos reusables en el diseño de sistemas software. 
+              p.text-center.mb-0 Proporcionar catálogos de elementos reusables en el diseño de sistemas #[em software]. 
 
             .crd.bg--white.brd--rad_02.shadow.p-4
               figure.mb-4
@@ -331,7 +331,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_29.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[span.txt--blue.strong Según Bertucelli (2019)], #[span.strong “Esta arquitectura se destaca por ser fácil de implementar en el comienzo del proyecto y fácil de entender para principiantes en el desarrollo de software. Lo que propone la arquitectura de capas es pensar nuestro sistema en capas y cada capa debe exponer en forma clara las operaciones que puede realizar. Estas operaciones se deben exponer mediante un api que nos diga qué servicio ofrece esa capa y cuál será su retorno, sin importar cómo esté implementado”.] 
+        p.mb-0 #[span.txt--blue.strong Según Bertucelli (2019)], #[span.strong “Esta arquitectura se destaca por ser fácil de implementar en el comienzo del proyecto y fácil de entender para principiantes en el desarrollo de #[em software]. Lo que propone la arquitectura de capas es pensar nuestro sistema en capas y cada capa debe exponer en forma clara las operaciones que puede realizar. Estas operaciones se deben exponer mediante un api que nos diga qué servicio ofrece esa capa y cuál será su retorno, sin importar cómo esté implementado”.] 
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4(data-aos="fade")
@@ -435,7 +435,7 @@
       .col-auto
         h5.cstmH5 Beneficios de la arquitectura basada en eventos
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-4.d-none.d-lg-flex(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_35.png", alt="alt")

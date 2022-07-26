@@ -15,7 +15,7 @@
         figure
           img(src="@/assets/curso/recursos/square_01.svg", alt="alt").img115
       .col
-        p.mb-0 La arquitectura de software es la base donde se cimienta la estructura de un componente o aplicación de software a desarrollar. Le damos la bienvenida y le invitamos a ver el siguiente video:         
+        p.mb-0 La arquitectura de #[em software] es la base donde se cimienta la estructura de un componente o aplicación de #[em software] a desarrollar. Le damos la bienvenida y le invitamos a ver el siguiente video:         
 
     figure
       .video

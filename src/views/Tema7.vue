@@ -30,7 +30,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Recopilación de información")
             .col
-              p.mb-0 Son pruebas para obtener información sensible de la solución de software o aplicación, también realizan ataques controlados que vulneren la seguridad del sitio y obtienen datos del ataque.
+              p.mb-0 Son pruebas para obtener información sensible de la solución de #[em software] o aplicación, también realizan ataques controlados que vulneren la seguridad del sitio y obtienen datos del ataque.
 
           .row(numero="2" titulo="Configuración y despliegue")
             .col
@@ -66,11 +66,11 @@
 
           .row(numero="9" titulo="Criptografía")
             .col
-              p.mb-0 Son controles para examinar la robustez y seguridad de los mecanismos de cifrado que implemente la solución de software.
+              p.mb-0 Son controles para examinar la robustez y seguridad de los mecanismos de cifrado que implemente la solución de #[em software].
 
           .row(numero="10" titulo="Lógica de la aplicación")
             .col
-              p.mb-0 Son controles para examinar la robustez y seguridad de los mecanismos de cifrado que implemente la solución de software.
+              p.mb-0 Son controles para examinar la robustez y seguridad de los mecanismos de cifrado que implemente la solución de #[em software].
 
           .row(numero="11" titulo="Pruebas de cliente")
             .col
@@ -99,7 +99,9 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col
-              p #[span.strong Como dato importante, OWASP, de forma periódica, realiza un informe haciendo la recopilación de las vulnerabilidades más frecuentes dentro de las aplicaciones #[em web]]; este informe es un insumo importante para comprobar si la aplicación que está en desarrollo tiene alguna vulnerabilidad mencionada en el informe; estos informes se los puede encontrar en la página oficial: https://owasp.org
+              p #[span.strong Como dato importante, OWASP, de forma periódica, realiza un informe haciendo la recopilación de las vulnerabilidades más frecuentes dentro de las aplicaciones #[em web]]; este informe es un insumo importante para comprobar si la aplicación que está en desarrollo tiene alguna vulnerabilidad mencionada en el informe; estos informes se los puede encontrar en la página oficial: #[a.txt--blue(href="https://owasp.org", title="OWASP",  target="_blank") https://owasp.org]
+
+          
 
           .cajon.cjn--yellow.mb-4
             p.strong Para aplicaciones móviles, esta fundación cuenta con #[em OWASP Mobile Security Testing Guide MSTG], ya que una aplicación móvil posee una serie de características diferentes a una aplicación web estándar o página web; esta guía se enfoca en auditar aplicativos móviles Android e iOS, la conforman 3 apartados o documentos relacionados entre sí, que son:
@@ -117,7 +119,10 @@
               i.fa-li.fas.fa-check-circle.txt--orange02
               | #[span.txt--blue.strong.italic Mobile App Security Checklist:]  es un listado de comprobación de los requisitos del MASVS.
 
-      p(data-aos="fade").mb-5 Después de hacer la respectiva revisión de los controles, el cliente final puede obtener un estado de la seguridad de su aplicación de forma gráfica, gracias a las tablas y gráficas que se producen en el proceso de la auditoría.
+      p(data-aos="fade") Después de hacer la respectiva revisión de los controles, el cliente final puede obtener un estado de la seguridad de su aplicación de forma gráfica, gracias a las tablas y gráficas que se producen en el proceso de la auditoría.
+      p(data-aos="fade") El término "aplicación móvil" se refiere a cualquier programa que se ejecuta en un dispositivo móvil. 
+      p(data-aos="fade").mb-5 Hay algunos tipos específicos de aplicaciones móviles de la siguiente manera:ss
+
 
       .row.justify-content-center.align-items.center.mb-5
         .col-lg-7.mb-4.mb-lg-0
@@ -153,7 +158,7 @@
                     figure
                       img(src="@/assets/curso/recursos/icon_04.svg", alt="alt").img75
                   .col
-                    p.mb-0 #[span.strong Aplicación progresiva:] Son páginas web normales, pero tienen la ventaja adicional de permitir que los desarrolladores trabajen sin conexión y obtengan acceso al hardware del dispositivo móvil.
+                    p.mb-0 #[span.strong Aplicación progresiva:] Son páginas web normales, pero tienen la ventaja adicional de permitir que los desarrolladores trabajen sin conexión y obtengan acceso al #[em hardware] del dispositivo móvil.
         .col-lg-5.col-8(data-aos="flip-left")
           figure
             img(src="@/assets/curso/temas/t7/t7_06.png", alt="alt")
@@ -162,7 +167,7 @@
         .col-auto
           h3.cstmH3 Pruebas de seguridad 
 
-      p(data-aos="fade").mb-5 Si se desea tener un programa de pruebas, es necesario saber cuáles son los objetivos de estas. #[strong Estos objetivos son especificados por los requisitos de seguridad. A continuación, verá cuáles son los objetivos de las pruebas derivados de las normas y reglamentos aplicables de la guía OWASP]. También, cómo los requisitos de seguridad conducen efectivamente a gestionar los riesgos de seguridad del software:
+      p(data-aos="fade").mb-5 Si se desea tener un programa de pruebas, es necesario saber cuáles son los objetivos de estas. #[strong Estos objetivos son especificados por los requisitos de seguridad. A continuación, verá cuáles son los objetivos de las pruebas derivados de las normas y reglamentos aplicables de la guía OWASP]. También, cómo los requisitos de seguridad conducen efectivamente a gestionar los riesgos de seguridad del #[em software]:
 
       TabsC.color-primario.mb-5(data-aos="zoom-in")
         .py-3.py-md-4(titulo="Pruebas de caja negra")
@@ -224,7 +229,7 @@
             figure
               img(src="@/assets/curso/recursos/square_07.svg", alt="alt").img75
           .col
-            p Aquí, se encuentran las credenciales de usuario, como contraseña o PIN, información confidencial como SIM, token de hardware, generador de contraseña, biometría (voz, retina, huella digital, etc.). Aquí, se debe tener en cuenta lo siguiente:
+            p Aquí, se encuentran las credenciales de usuario, como contraseña o PIN, información confidencial como SIM, token de #[em hardware], generador de contraseña, biometría (voz, retina, huella digital, etc.). Aquí, se debe tener en cuenta lo siguiente:
                 
         SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-4")
             .crd.bg--white.brd--rad_02.shadow.p-4

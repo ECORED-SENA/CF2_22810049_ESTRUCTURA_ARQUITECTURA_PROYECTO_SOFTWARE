@@ -17,21 +17,25 @@
             figure
               img(src="@/assets/curso/recursos/square_07.svg", alt="alt").img75
           .col
-            p.mb-0 #[span.txt--blue.strong Según Clements], #[span.strong la documentación de la arquitectura son los documentos que se generan durante el proceso de desarrollo de la arquitectura de software; esta cumple varios propósitos significativos, como son:] 
+            p.mb-0 #[span.txt--blue.strong Según Clements], #[span.strong la documentación de la arquitectura son los documentos que se generan durante el proceso de desarrollo de la arquitectura de #[em software]; esta cumple varios propósitos significativos, como son:] 
 
         ul.fa-ul.mb-4
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | Realizar la descripción de la interacción de un actor con el sistema.
+            | Informar a los distintos involucrados o #[em stakeholders], el diseño y las decisiones que permitieron llegar a este.
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | Narrar el rol desempeñado por los actores en la interacción con el sistema y sus flujos.
+            | Facilitar la realización del análisis y la evaluación del diseño.
+          .hr_line
+          li
+            i.fa-li.fas.fa-check-circle.txt--orange02
+            | Facilitar el soporte de las actividades de mantenimiento.
 
         .cajon.cjn--yellow(data-aos="zoom-in")
           p.strong Para documentar un diseño de arquitectura, se requiere representar las distintas estructuras del diseño arquitectural, estas se documentan de forma separada, a través de distintas vistas. Cada vista modela una parte del diseño arquitectural desde distintas perspectivas, que pueden ser dinámicas, lógicas o físicas.
 
-    p(data-aos="fade") Para saber qué tantos documentos se llevará en el proyecto de software, se deben considerar diversos aspectos, que incluyen a los stakeholders, el tipo de proyecto y la experiencia del equipo de desarrollo. 
+    p(data-aos="fade") Para saber qué tantos documentos se llevará en el proyecto de #[em software], se deben considerar diversos aspectos, que incluyen a los #[em stakeholders], el tipo de proyecto y la experiencia del equipo de desarrollo. 
 
     p.strong.mb-4(data-aos="fade") Por lo general, los documentos más comunes que se generan en este proceso son:
 
@@ -45,12 +49,12 @@
         ul.fa-ul.mb-0
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | Requisitos de software.
+            | Requisitos de #[em software].
         .hr_line
         ul.fa-ul.mb-0
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | Requisitos de hardware.
+            | Requisitos de #[em hardware].
         .hr_line
         ul.fa-ul.mb-0
           li
@@ -81,12 +85,12 @@
       .col-lg-8.mb-4.mb-lg-0
         p El Instituto de Ingenieros Eléctricos y Electrónicos (IEEE, por sus siglas en inglés) es la sociedad técnica profesional más grande del mundo, se dedica a divulgar los avances científicos en las áreas de ingeniería eléctrica, electrónica, energética, informática y afines. 
         .cajon.cjn--blue
-          p.strong Esta organización publicó el estándar ISO/IEC/IEEE 29119. Según ISO (2022), las pruebas de software son un estándar que agrupa procesos, documentación, vocabulario, técnicas y un modelo de evaluación de procesos para realizar las pruebas, se puede usar dentro de cualquier ciclo de vida de desarrollo de software.
+          p.strong Esta organización publicó el estándar ISO/IEC/IEEE 29119. Según ISO (2022), las pruebas de #[em software] son un estándar que agrupa procesos, documentación, vocabulario, técnicas y un modelo de evaluación de procesos para realizar las pruebas, se puede usar dentro de cualquier ciclo de vida de desarrollo de #[em software].
       .col-lg-4(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t5/t5_03.png", alt="alt")
 
-    p(data-aos="fade") Está conformado principalmente por la documentación de prueba y, como su nombre lo indica, se centra en la documentación de las pruebas de software; se divide en tres tipos de documentación:
+    p(data-aos="fade") Está conformado principalmente por la documentación de prueba y, como su nombre lo indica, se centra en la documentación de las pruebas de #[em software]; se divide en tres tipos de documentación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6 
@@ -167,9 +171,9 @@
           figure
             img(src='@/assets/curso/temas/t5/t5_05.png', alt='')
         .col-lg-8(data-aos="fade")
-          p También se la conoce con el nombre SQuaRE (System and Software Quality Requirements and Evaluation) “Evaluación y requisitos de calidad del software y del sistema”. 
+          p También se la conoce con el nombre SQuaRE ( #[emSystem and software Quality Requirements and Evaluation]) “Evaluación y requisitos de calidad del #[em software] y del sistema”. 
           .cajon.cjn--yellow
-            p.strong El objetivo de este estándar es la creación de un marco o guía de trabajo para evaluar la calidad del producto de software o aplicación, esta norma es la evolución de las normas ISO/IEC 9126 e ISO/IEC 14598; se compone principalmente por: conceptos, modelos o patrones de referencia y definiciones, divididos en cinco áreas, así:
+            p.strong El objetivo de este estándar es la creación de un marco o guía de trabajo para evaluar la calidad del producto de #[em software] o aplicación, esta norma es la evolución de las normas ISO/IEC 9126 e ISO/IEC 14598; se compone principalmente por: conceptos, modelos o patrones de referencia y definiciones, divididos en cinco áreas, así:
                   
           SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in")
             .crd.bg--white.brd--rad_02.shadow.p-4
@@ -204,7 +208,7 @@
               img(src="@/assets/curso/temas/t5/t5_06.png", alt="alt").img90.m-auto 
           .col-lg-10
             .bloque-texto-a__texto.p-4
-              p Dentro de este estándar, se destaca una de las normas más usadas para verificar la calidad de software: el modelo ISO/IEC 25010, el cual se encuentra compuesto por las ocho características de calidad que se muestran en la siguiente figura:
+              p Dentro de este estándar, se destaca una de las normas más usadas para verificar la calidad de #[em software]: el modelo ISO/IEC 25010, el cual se encuentra compuesto por las ocho características de calidad que se muestran en la siguiente figura:
 
       .row.justify-content-center.mb-5(data-aos="zoom-in")        
         .col-lg-6
@@ -306,7 +310,7 @@
       .col-auto
         h3.cstmH3 Modelo 4+1
 
-    p(data-aos="fade").mb-5 Este modelo fue creado por Hilippe Kruchten, ofrece una técnica para organizar la descripción de una arquitectura de software utilizando un conjunto de cuatro “vistas” concurrentes, que son las que se muestran en la figura:
+    p(data-aos="fade").mb-5 Este modelo fue creado por Hilippe Kruchten, ofrece una técnica para organizar la descripción de una arquitectura de #[em software] utilizando un conjunto de cuatro “vistas” concurrentes, que son las que se muestran en la figura:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")        
       .col-lg-8
@@ -317,7 +321,7 @@
           img(src="@/assets/curso/temas/t5/t5_08.svg", alt="alt")
 
     .crd--gray.p-4.mb-5(data-aos="zoom-in")
-      p.mb-0 #[span.strong.txt--blue Según Kruchten (1995)], #[strong además, los casos de uso o escenarios seleccionados se utilizan como la vista ‘más uno’ para mostrar el diseño.] Como resultado, el modelo tiene 4+1 vistas, de ahí que el modelo se llame “The 4+1 Architectural View”. 
+      p.mb-0 #[span.strong.txt--blue Según Kruchten (1995)], #[strong además, los casos de uso o escenarios seleccionados se utilizan como la vista ‘más uno’ para mostrar el diseño.] Como resultado, el modelo tiene 4+1 vistas, de ahí que el modelo se llame “#[em The 4+1 Architectural View]”. 
 
     .row.mb-3(data-aos="fade")
       .col-auto
@@ -349,7 +353,7 @@
             .row.justify-content-around.align-items-center.pt-5
               .col-lg-8.mb-4.mb-lg-0                          
                 h4 Vista de proceso
-                p Describe un sistema desde el punto de vista de un programador y se ocupa de la administración del software, también se lo conoce como vista de despliegue, describe los componentes del sistema utilizando el diagrama de paquetes UML. 
+                p Describe un sistema desde el punto de vista de un programador y se ocupa de la administración del #[em software], también se lo conoce como vista de despliegue, describe los componentes del sistema utilizando el diagrama de paquetes UML. 
               .col-lg-3.col-4
                 figure
                   img(src='@/assets/curso/temas/t5/t5_12.svg', alt='').img350.m-auto
@@ -357,7 +361,7 @@
             .row.justify-content-around.align-items-center.pt-5
               .col-lg-8.mb-4.mb-lg-0                          
                 h4 Vista física
-                p Representa el sistema desde la perspectiva de un ingeniero de sistemas. La capa física se ocupa de la topología de los componentes de software, así como de las conexiones físicas entre estos, también se la conoce como vista de implementación, aquí se utiliza el diagrama de implementación de UML para representar la perspectiva física.
+                p Representa el sistema desde la perspectiva de un ingeniero de sistemas. La capa física se ocupa de la topología de los componentes de #[em software], así como de las conexiones físicas entre estos, también se la conoce como vista de implementación, aquí se utiliza el diagrama de implementación de UML para representar la perspectiva física.
               .col-lg-3.col-4
                 figure
                   img(src='@/assets/curso/temas/t5/t5_13.svg', alt='').img350.m-auto

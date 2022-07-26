@@ -19,7 +19,7 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col
-              p.mb-0 #[span.txt--blue.strong Un aspecto muy importante en arquitectura de software son los patrones, tanto de diseño como de arquitectura, que son complementados por los estilos arquitectónicos.] Los estilos favorecen el tratamiento estructural, la investigación y la teoría, mientras que los patrones están orientados o están más cerca del diseño, la práctica, el proceso o el código. Un estilo describe una clase de arquitectura o partes de esta, los estilos pueden ser reutilizados en situaciones semejantes, a futuro.
+              p.mb-0 #[span.txt--blue.strong Un aspecto muy importante en arquitectura de #[em software] son los patrones, tanto de diseño como de arquitectura, que son complementados por los estilos arquitectónicos.] Los estilos favorecen el tratamiento estructural, la investigación y la teoría, mientras que los patrones están orientados o están más cerca del diseño, la práctica, el proceso o el código. Un estilo describe una clase de arquitectura o partes de esta, los estilos pueden ser reutilizados en situaciones semejantes, a futuro.
           .cajon.cjn--yellow 
             p.strong.mb-0 Un estilo arquitectónico es una abstracción de tipos de elementos y aspectos formales a partir de arquitecturas específicas o un conjunto de reglas de diseño que identifica las clases de componentes y conectores que se pueden utilizar para componer el sistema o subsistema, junto con las restricciones locales o globales de la forma en que la composición se lleva a cabo.
 

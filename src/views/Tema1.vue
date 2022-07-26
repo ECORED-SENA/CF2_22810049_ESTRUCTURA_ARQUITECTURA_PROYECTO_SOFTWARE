@@ -14,7 +14,7 @@
             figure
               img(src="@/assets/curso/recursos/square_04.svg", alt="alt")
           .col
-            p #[span.txt--blue.strong Según Ungoti (2021), el ciclo de vida del desarrollo de software (SDLC – Systems Development Life Cycle)] #[span.strong “es la estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de software, abarcando la vida completa del sistema, desde la definición de los requisitos hasta la finalización de su uso, y en general, el ciclo de vida del software comprende los siguientes ítems:”]
+            p #[span.txt--blue.strong Según Ungoti (2021), el ciclo de vida del desarrollo de #[em software] (SDLC – #[em Systems Development Life Cycle])] #[span.strong “es la estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de #[em software], abarcando la vida completa del sistema, desde la definición de los requisitos hasta la finalización de su uso, y en general, el ciclo de vida del #[em software] comprende los siguientes ítems:”]
         .row.justify-content-center
           .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="flip-left")
             .bg--gray.brd--top
@@ -47,7 +47,7 @@
               figure
                 img(src="@/assets/curso/temas/t1/t1_05.png", alt="alt").img145
             .col
-              p.mb-0 Observe, a continuación, #[strong las definiciones de los ítems que conforman el ciclo de vida del desarrollo de software (SDLC) y que, a su vez, mantienen un orden de realización lógico:]
+              p.mb-0 Observe, a continuación, #[strong las definiciones de los ítems que conforman el ciclo de vida del desarrollo de #[em software] (SDLC) y que, a su vez, mantienen un orden de realización lógico:]
 
       .row.justify-content-center.mb-5
         .col-lg-5.col-8.order-2.order-lg-1(data-aos="zoom-in")
@@ -57,19 +57,19 @@
           LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="Comunicación")
               .col-12
-                p.mb-0 Este es el momento en el que un cliente solicita un producto de software determinado.<br><br>Nos contacta para plasmar sus necesidades concretas y presenta su solicitud de desarrollo de software.
+                p.mb-0 Este es el momento en el que un cliente solicita un producto de #[em software] determinado.<br><br>Nos contacta para plasmar sus necesidades concretas y presenta su solicitud de desarrollo de #[em software].
 
             .row(numero="2" titulo="Comunicación")
               .col-12
-                p El desarrollo de software comienza con una fase inicial de planificación, incluyendo un análisis de requisitos. Nos fijamos en los requisitos que piden los clientes para estudiar cuáles están poco claros, incompletos, ambiguos o contradictorios.
+                p El desarrollo de #[em software] comienza con una fase inicial de planificación, incluyendo un análisis de requisitos. Nos fijamos en los requisitos que piden los clientes para estudiar cuáles están poco claros, incompletos, ambiguos o contradictorios.
                 .cajon.cjn--yellow
-                  p Se indaga en profundidad y se hacen demostraciones prácticas, incluyendo a los usuarios clave. Los requisitos se agrupan en requisitos del usuario, requisitos funcionales y requisitos del sistema. La recolección de todos los requisitos se lleva a cabo: estudiando el software actual que tengan, entrevistando a usuarios y desarrolladores, consultando bases de datos o mediante cuestionarios.
+                  p Se indaga en profundidad y se hacen demostraciones prácticas, incluyendo a los usuarios clave. Los requisitos se agrupan en requisitos del usuario, requisitos funcionales y requisitos del sistema. La recolección de todos los requisitos se lleva a cabo: estudiando el #[em software] actual que tengan, entrevistando a usuarios y desarrolladores, consultando bases de datos o mediante cuestionarios.
 
             .row(numero="3" titulo="Estudio de viabilidad")
               .col-12
-                p Después de la recolección de requisitos, se idea un plan para procesar el software, se analiza qué parte del software cubre los requisitos de cada usuario. 
+                p Después de la recolección de requisitos, se idea un plan para procesar el #[em software], se analiza qué parte del #[em software] cubre los requisitos de cada usuario. 
                 .cajon.cjn--yellow
-                  p Se investiga la viabilidad financiera y tecnológica y se utilizan algoritmos para saber si el proyecto de software es factible o no.
+                  p Se investiga la viabilidad financiera y tecnológica y se utilizan algoritmos para saber si el proyecto de #[em software] es factible o no.
 
             .row(numero="4" titulo="Diseño")
               .col-12
@@ -82,21 +82,21 @@
               .col-12
                 p Esta fase también es denominada “fase de programación” o “fase de desarrollo”, es en la que se elige el lenguaje de programación más conveniente y se desarrollan programas ejecutables y sin errores, de manera eficiente.
                 .cajon.cjn--yellow
-                  p Nuestro enfoque es construir trozos de funcionalidad. Por lo tanto, entregar unidades de funcionalidad concisa. Al final de esta fase, se puede obtener un PMV (Producto Mínimo Viable) o el software completamente desarrollado y listo para implementarse. 
+                  p Nuestro enfoque es construir trozos de funcionalidad. Por lo tanto, entregar unidades de funcionalidad concisa. Al final de esta fase, se puede obtener un PMV (Producto Mínimo Viable) o el #[em software] completamente desarrollado y listo para implementarse. 
 
             .row(numero="7" titulo="Integración")
               .col-12
-                p.mb-0 El software puede necesitar estar integrado con bibliotecas, bases de datos o con otros programas. Esta fase del SDLC integra el software con las entidades del mundo exterior.
+                p.mb-0 El #[em software] puede necesitar estar integrado con bibliotecas, bases de datos o con otros programas. Esta fase del SDLC integra el #[em software] con las entidades del mundo exterior.
 
             .row(numero="8" titulo="Pruebas")
               .col-12
                 p Esta fase, junto con la fase de desarrollo, entra en un ciclo continuo hasta que se completan el desarrollo y las pruebas. Probamos, probamos y luego volvemos a probar, tanto como sea necesario, hasta que la funcionalidad sea del 100 %. 
                 .cajon.cjn--yellow
-                  p Además, se hacen evaluaciones para evitar errores, incluyendo la evaluación de módulos, programas, productos, y finalmente, evaluación con el cliente final. Encontrar errores y arreglarlos a tiempo es la clave para conseguir un software confiable y eficiente.
+                  p Además, se hacen evaluaciones para evitar errores, incluyendo la evaluación de módulos, programas, productos, y finalmente, evaluación con el cliente final. Encontrar errores y arreglarlos a tiempo es la clave para conseguir un #[em software] confiable y eficiente.
 
             .row(numero="9" titulo="Implementación")
               .col-12
-                p.mb-0 Aquí se instala el software, se evalúa la integración, la adaptabilidad, la portabilidad y se instalan las configuraciones posteriores necesarias.
+                p.mb-0 Aquí se instala el #[em software], se evalúa la integración, la adaptabilidad, la portabilidad y se instalan las configuraciones posteriores necesarias.
 
             .row(numero="10" titulo="Formación")
               .col-12
@@ -104,7 +104,7 @@
 
             .row(numero="11" titulo="Mantenimiento y funcionamiento")
               .col-12
-                p.mb-0 Por último, pero no menos importante, el mantenimiento es uno de los elementos clave de éxito de cualquier proyecto. En esta fase, se minimizan pequeños errores, se confirma el buen funcionamiento del software, su eficiencia y estabilidad. El proyecto ya está completado y necesitamos monitorear y mantener de forma continua para garantizar que el proyecto siga ejecutándose bien.
+                p.mb-0 Por último, pero no menos importante, el mantenimiento es uno de los elementos clave de éxito de cualquier proyecto. En esta fase, se minimizan pequeños errores, se confirma el buen funcionamiento del #[em software], su eficiencia y estabilidad. El proyecto ya está completado y necesitamos monitorear y mantener de forma continua para garantizar que el proyecto siga ejecutándose bien.
                 
         .col-lg-5.col-8(data-aos="zoom-in")
           figure
@@ -116,7 +116,7 @@
           figure
             img(src="@/assets/curso/recursos/square_06.svg", alt="alt").img30
         .col
-          p.mb-0 Ahora antes de continuar es importante complementar con las fases del del Ciclo de vida de software, las mismas son necesarias para la validación del desarrollo de software.             
+          p.mb-0 Ahora antes de continuar es importante complementar con las fases del del Ciclo de vida de #[em software], las mismas son necesarias para la validación del desarrollo de #[em software].             
                                                            
       
 </template>

@@ -15,7 +15,7 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col
-              p.mb-0 Con el nacimiento de la Programación Orientada a Objetos (POO), se establecieron una variedad de lenguajes, métodos y simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente, esta situación generó un desconcierto en los programadores de software. #[span.strong Tratando de darle solución a este inconveniente, aparece el Lenguaje de Modelado Unificado, o UML por sus siglas en inglés (Unified Modeling Language).]
+              p.mb-0 Con el nacimiento de la Programación Orientada a Objetos (POO), se establecieron una variedad de lenguajes, métodos y simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente, esta situación generó un desconcierto en los programadores de #[em software]. #[span.strong Tratando de darle solución a este inconveniente, aparece el Lenguaje de Modelado Unificado, o UML por sus siglas en inglés (#[em Unified Modeling Language]).]
 
           p.mb-0 El Lenguaje de Modelado Unificado proporciona un grupo de herramientas que facilitan realizar el modelado (análisis y diseño) de los sistemas que son orientados a objetos. #[strong Indicando una serie de normas técnicas que representan de manera gráfica el camino y la estructura de un sistema determinado a los programadores, analistas, desarrolladores, diseñadores, etc.]
 
@@ -41,7 +41,7 @@
       .col-auto
         h3.cstmH3 Diagrama de casos de uso
 
-    p(data-aos="fade") Según Larman, los casos de uso permiten la descripción de cada una de las funciones de las aplicaciones a desarrollar, desde el punto de vista del usuario. Su utilización radica en expresar las funcionalidades que el producto de software debe efectuar y poder definir las personas que serán las encargadas de ejecutar estas funcionalidades. Es una técnica que consiste en hacer un diagrama con su respectiva notación.
+    p(data-aos="fade") Según Larman, los casos de uso permiten la descripción de cada una de las funciones de las aplicaciones a desarrollar, desde el punto de vista del usuario. Su utilización radica en expresar las funcionalidades que el producto de #[em software] debe efectuar y poder definir las personas que serán las encargadas de ejecutar estas funcionalidades. Es una técnica que consiste en hacer un diagrama con su respectiva notación.
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade")
@@ -50,7 +50,7 @@
             figure
               img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
           .col
-            p.mb-0 El caso de uso representa el comportamiento del software en la interacción con el usuario, para que este alcance un objetivo; la notación de un diagrama de caso de uso se compone principalmente de tres (3) elementos que ayudan a representar simbólicamente las funcionalidades, personas involucradas y relación entre estas, y son: los actores, las relaciones y los casos de uso. 
+            p.mb-0 El caso de uso representa el comportamiento del #[em software] en la interacción con el usuario, para que este alcance un objetivo; la notación de un diagrama de caso de uso se compone principalmente de tres (3) elementos que ayudan a representar simbólicamente las funcionalidades, personas involucradas y relación entre estas, y son: los actores, las relaciones y los casos de uso. 
 
         .row.mb-3(data-aos="fade")
           .col-auto
@@ -97,10 +97,10 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col  
-              p.mb-0 Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un software, se representa mediante un hombre de palo “stickman” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema, el cuál será el encargado de realizar una función.
+              p.mb-0 Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo “stickman” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema, el cuál será el encargado de realizar una función.
           p.mb-4 Los nombres de los actores normalmente inician con Mayúscula.
 
-          h4 Existen varios tipos de actores:(data-aos="fade")
+          h4(data-aos="fade") Existen varios tipos de actores:
           ul.fa-ul(data-aos="fade")
             li
               i.fa-li.fas.fa-check-circle.txt--orange02
@@ -118,7 +118,7 @@
           figure
             img(src="@/assets/curso/temas/t4/t4_07.png", alt="alt")
 
-    h4.mb-5 Ten en cuenta:(data-aos="fade")
+    h4(data-aos="fade").mb-5 Ten en cuenta:
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.order-2.order-lg-1(data-aos="zoom-in")
@@ -158,6 +158,21 @@
                     img(src="@/assets/curso/recursos/icon_04.svg", alt="alt").img75
                 .col
                   p.mb-0 Un actor tiene la posibilidad de hacer diferentes casos de uso y viceversa. Para identificar un actor, solo es necesario visualizar los roles que interactuarán en el sistema.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bg--mint.p-3
+          h4.text-center.mb-0 Según el ejemplo planteado, observe su representación:    
+
+        .crd--gray.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-7(data-aos="zoom-in").mb-4
+              figure.pt-4
+                img(src="@/assets/curso/temas/t4/t4_08A.svg", alt="alt").img350.m-auto
+            .col-lg-6.mb-4
+              .crd--gray_02.brd--rad_01.p-4
+                p.text-center Los actores identificados en los requerimientos son: 
+                p.strong.text-center.mb-0 Comerciante y Sistema externo.
 
     .row.mb-3(data-aos="fade")
       .col-auto
@@ -246,27 +261,20 @@
                   p.mb-0 El caso de uso debe ser de fácil lectura e interpretación, tanto para los desarrolladores como para el cliente, y para el nombre se sugiere usar un verbo en infinitivo con un complemento.
 
     .row.justify-content-center.mb-5
-      .col-lg-11.mb-5
+      .col-lg-10.mb-5
         .bg--mint.p-3
-          h4.text-center.mb-0 Según el ejemplo, observe a continuación:        
+          h4.text-center.mb-0 Según el ejemplo, observe a continuación:
 
         .crd--gray.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-6(data-aos="fade")
-              p Se identifican las siguientes relaciones de comunicación:
-              ul.fa-ul.mb-0
-                li
-                  i.fa-li.fas.fa-caret-right.txt--blue
-                  | Entre el comerciante y la generación de factura.
-                li
-                  i.fa-li.fas.fa-caret-right.txt--blue
-                  | Entre el comerciante y el envío de la factura. 
-                li
-                  i.fa-li.fas.fa-caret-right.txt--blue
-                  | Entre la factura y el sistema externo.
-            .col-lg-4.col-8(data-aos="zoom-in")
-              figure
-                img(src="@/assets/curso/temas/t4/t4_10.svg", alt="alt")
+            .col-lg-7(data-aos="zoom-in").mb-4
+              figure.pt-4
+                img(src="@/assets/curso/temas/t4/t4_10A.svg", alt="alt").img250.m-auto
+            .col-lg-6.mb-4
+              .crd--gray_02.brd--rad_01.p-4
+                p.text-center Los casos de uso que se identifican son: 
+                p.strong.text-center.mb-0 Generar factura y Enviar factura.
+
 
       .col-lg-11.mb-5    
         .cajon.cjn--yellow
@@ -337,6 +345,9 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.shadow.brd--rad_02
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_16.png')})`}")
+              .crdTitle.py-2.px-3
+                p.strong.text-center.mb-0 Inclusión
+                p.text-center.italic.mb-0 (#[em Include o use])
             .tarjeta-flip__contenido.p-4.p-xl-5             
               figure.py-5
                 img(src="@/assets/curso/temas/t4/t4_19.svg", alt="alt")                
@@ -347,6 +358,9 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.shadow.brd--rad_02
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_17.png')})`}")
+              .crdTitle.py-2.px-3
+                p.strong.text-center.mb-0 Extensión
+                p.text-center.italic.mb-0 (Extend)
             .tarjeta-flip__contenido.p-4.p-xl-5             
               figure.py-5
                 img(src="@/assets/curso/temas/t4/t4_20.svg", alt="alt")                
@@ -357,6 +371,9 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.shadow.brd--rad_02
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_18.png')})`}")
+              .crdTitle.py-2.px-3
+                p.strong.text-center.mb-0 Generalización
+                p.text-center.italic.mb-0 (Generalization)
             .tarjeta-flip__contenido.p-4.p-xl-5             
               figure.py-5
                 img(src="@/assets/curso/temas/t4/t4_21.svg", alt="alt")                
@@ -377,7 +394,7 @@
           figure
             img(src="@/assets/curso/recursos/square_01.svg", alt="alt").img115
         .col
-          p.mb-0 #[span.txt--blue.strong &#60;&#60;extend&#62;&#62;:] se define esta relación cuando se cuenta con un caso de uso que es muy parecido a otro, pero que realiza mucho más.
+          p.mb-0 #[span.txt--blue.strong &#60;&#60;#[em extend]&#62;&#62;:] se define esta relación cuando se cuenta con un caso de uso que es muy parecido a otro, pero que realiza mucho más.
 
       .bloque-texto-g.bg--mint.p-3.p-sm-4.p-md-5(data-aos="zoom-in").mb-5
         .bloque-texto-g__img(
@@ -408,14 +425,14 @@
         figure
           img(src="@/assets/curso/recursos/square_01.svg", alt="alt").img115
       .col
-        p.mb-0 #[span.txt--blue.strong &#60;&#60;uses o include&#62;&#62;:] se define esta relación cuando una parte del comportamiento o acción es equivalente en más de un caso de uso y no se requiere duplicar la representación de su actuación.
+        p.mb-0 #[span.txt--blue.strong &#60;&#60;#[em uses o include]&#62;&#62;:] se define esta relación cuando una parte del comportamiento o acción es equivalente en más de un caso de uso y no se requiere duplicar la representación de su actuación.
 
     .bloque-texto-g.bg--mint.p-3.p-sm-4.p-md-5(data-aos="zoom-in").mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_25.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[span.strong Por otro lado, tomando el ejemplo anterior, el mismo se amplía con el siguiente requerimiento funcional: antes de que el usuario envié la factura, puede realizar una búsqueda de facturas para seleccionarla y enviarla, haciendo necesario incluir la relación &#60;&#60;include&#62;&#62;. Por lo que se vería así:]   
+        p.mb-0 #[span.strong Por otro lado, tomando el ejemplo anterior, el mismo se amplía con el siguiente requerimiento funcional: antes de que el usuario envié la factura, puede realizar una búsqueda de facturas para seleccionarla y enviarla, haciendo necesario incluir la relación &#60;&#60;#[em include]&#62;&#62;. Por lo que se vería así:]   
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
@@ -537,22 +554,23 @@
       .col-auto
         h4.cstmH4 Casos de uso reales
 
-    .row.justify-content-center.mb-4
-      .col-lg-4.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure
-          img(src="@/assets/curso/temas/t4/t4_28.png", alt="alt")
-      .col-lg-8(data-aos="fade")
-        p #[strong Su objetivo principal es detallar el proceso de un sistema de información que se describe por medio de un caso de uso, incluyendo la interacción de objetos, así como definir las transacciones de las interfaces y clases de los diferentes procedimientos secundarios de diseño.] De este modo, cuando se reconozcan las clases que participan internamente de un caso de uso, es fundamental que los entornos que se recolectan del análisis se completen, incorporando las correspondientes clases de diseño sin dejar a un lado las restricciones del ambiente tecnológico.
-        .row.justify-content-center
-          .col-lg-10
-            .row
-              .col-auto
-                figure
-                  img(src="@/assets/curso/recursos/square_05.svg", alt="alt")
-              .col
-                p #[strong Los casos de uso reales representan el diseño preciso del caso de uso desde una tecnología en específico.] Así pues, si se trata de un diseño gráfico para el usuario, se incluirá el diseño de ventanas de este y una descripción de la interacción con los objetos de la interfaz. #[strong En resumen, los casos de uso reales brindan diseños de pantalla y explicación de la interacción entre los objetos de esta.]
+    .bg_gray_right.py-2.mb-5 
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-4.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
+          figure
+            img(src="@/assets/curso/temas/t4/t4_28.png", alt="alt")
+        .col-lg-8(data-aos="fade")
+          p #[strong Su objetivo principal es detallar el proceso de un sistema de información que se describe por medio de un caso de uso, incluyendo la interacción de objetos, así como definir las transacciones de las interfaces y clases de los diferentes procedimientos secundarios de diseño.] De este modo, cuando se reconozcan las clases que participan internamente de un caso de uso, es fundamental que los entornos que se recolectan del análisis se completen, incorporando las correspondientes clases de diseño sin dejar a un lado las restricciones del ambiente tecnológico.
+          .row.justify-content-center
+            .col-lg-10
+              .row
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/recursos/square_05.svg", alt="alt")
+                .col
+                  p #[strong Los casos de uso reales representan el diseño preciso del caso de uso desde una tecnología en específico.] Así pues, si se trata de un diseño gráfico para el usuario, se incluirá el diseño de ventanas de este y una descripción de la interacción con los objetos de la interfaz. #[strong En resumen, los casos de uso reales brindan diseños de pantalla y explicación de la interacción entre los objetos de esta.]
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade")
         .cajon.cjn--blue.mb-4
           p Para aclarar las definiciones anteriores, observe un ejemplo de un sistema de ventas donde se realiza el diseño del caso de uso real y se hace la descripción de interacción entre los artefactos del diseño:
@@ -576,6 +594,66 @@
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t4/t4_29.svg", alt="alt")
+
+    
+    .bg_img_02
+      figure(data-aos="zoom-in")
+        img(src="@/assets/curso/temas/t4/t4_30.png", alt="alt")
+      .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
+        .col-10
+          .crd.bg--gray.shadow.brd--rad_01.p-4
+            p.mb-0 #[span.strong El inicio de este caso de uso se da cuando el cliente se acerca a la caja registradora con los artículos que desea llevar; observe las interacciones entre objetos en el diseño:]
+
+      .row.justify-content-center(data-aos="fade")
+        .col-lg-7
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/t4/t4_31.svg', alt='')          
+
+            .crd.bg--white.brd--rad_01.shadow(x="43.5%" y="23.5%" numero="1")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Código Producto
+              .p-4
+                p.text-center.mb-0 El cajero deberá, para cada producto, ingresar el código del producto
+
+            .crd.bg--white.brd--rad_01.shadow(x="90.5%" y="23.5%" numero="2")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Cantidad del producto
+              .p-4
+                p.text-center.mb-0 En el caso de que el usuario tenga más de un producto, es opcional registrar la cantidad de estos.
+
+            .crd.bg--white.brd--rad_01.shadow(x="43.5%" y="32%" numero="3")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Precio
+              .p-4
+                p.text-center.mb-0 Con el paso anterior, aparecerá la visualización de la descripción y el precio del producto.
+                
+            .crd.bg--white.brd--rad_01.shadow(x="90.5%" y="40.5%" numero="4")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Total venta
+              .p-4
+                p.text-center.mb-0 El sistema hará el cálculo y mostrará el total de la venta.
+
+            .crd.bg--white.brd--rad_01.shadow(x="32.5%" y="58%" numero="5")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Ingresar producto
+              .p-4
+                p.text-center.mb-0 Una vez que se finalice el registro de todos los productos, se presiona el botón (ingresar producto). El sistema almacenará los productos registrados. 
+
+            .crd.bg--white.brd--rad_01.shadow(x="60.5%" y="58%" numero="6")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Terminar venta
+              .p-4
+                p.text-center.mb-0 Para finalizar, el cajero presiona el botón (Terminar Venta), para dar por finalizada la venta. 
+
+            .crd.bg--white.brd--rad_01.shadow(x="89%" y="58%" numero="7")
+              .bg--mint.shadow.brd--top.p-3
+                h5.text-center.mb-0 Efectuar pago
+              .p-4
+                p.text-center.mb-0 Por último, se procederá al pago
+            
+
 
 
     
