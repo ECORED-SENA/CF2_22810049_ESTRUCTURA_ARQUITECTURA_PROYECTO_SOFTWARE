@@ -356,7 +356,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5             
               figure.py-5
                 img(src="@/assets/curso/temas/t4/t4_19.svg", alt="alt")                
-              p.text-center Se utiliza para extender a otro caso de uso, es útil para nuevos requerimientos del sistema. 
+              p.text-center Se usa para extraer comportamientos comunes, un caso de uso puede incluir otro.  
 
       .col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
         .tarjeta.tarjeta-flip.bg--white(@mouseover="indicadorTarjetaFlip = false")
