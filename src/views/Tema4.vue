@@ -205,6 +205,11 @@
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
             | El tipo de comunicación o la relación entre los casos de uso y los actores forman la asociación directa con el caso de uso. 
+        .hr_line
+        ul.fa-ul.mb-0
+          li
+            i.fa-li.fas.fa-check-circle.txt--orange02
+            | La manera de expresar es que el actor ejecuta el caso de uso.
 
     .row.justify-content-center(data-aos="fade")
       .col-lg-11
@@ -273,7 +278,7 @@
             .col-lg-6.mb-4
               .crd--gray_02.brd--rad_01.p-4
                 p.text-center Los casos de uso que se identifican son: 
-                p.strong.text-center.mb-0 Generar factura y Enviar factura.
+                p.strong.text-center.mb-0 Generar factura y enviar factura.
 
 
       .col-lg-11.mb-5    
@@ -288,14 +293,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade")
-        p Los pasos realizados para el diseño del diagrama de casos de uso del sistema de ventas es el siguiente:
+        p Los pasos realizados para el diseño del diagrama de casos de uso del sistema de ventas son los siguientes:
         .row.justify-content-center
           .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="flip-left")
             .crd.bg--gray_02.brd--rad_02.p-4
               figure.mb-4
                 img(src="@/assets/curso/temas/t4/t4_13.svg", alt="alt").img75.m-auto
               h4.text-center PASO 1
-              p.text-center Se identificaron los posibles actores que interactuarían con el sistema; para el caso del ejemplo: Comerciante y Sistema externo.
+              p.text-center Se identificaron los posibles actores que interactuarían con el sistema; para el caso del ejemplo: comerciante y sistema externo.
           .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="flip-left")
             .crd.bg--gray_02.brd--rad_02.p-4
               figure.mb-4
@@ -307,7 +312,7 @@
               figure.mb-4
                 img(src="@/assets/curso/temas/t4/t4_13.svg", alt="alt").img75.m-auto
               h4.text-center PASO 3
-              p.text-center Se identificaron los casos de uso según requerimientos; para el caso del ejemplo, son: Generar factura, Enviar factura.
+              p.text-center Se identificaron los casos de uso según requerimientos; para el caso del ejemplo, son: Generar factura, enviar factura.
 
       .col-lg-4.d-none.d-lg-flex(data-aos="fade")
         figure
@@ -377,7 +382,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5             
               figure.py-5
                 img(src="@/assets/curso/temas/t4/t4_21.svg", alt="alt")                
-              p.text-center Se utiliza para extender a otro caso de uso, es útil para nuevos requerimientos del sistema. 
+              p.text-center Relación entre un caso de uso general y uno específico que hereda propiedades del caso de uso base.  
 
     .bg_img_02  
       .row.justify-content-center.mb-5(data-aos="zoom-in")
@@ -468,7 +473,11 @@
             img(src="@/assets/curso/temas/t4/t4_27.png", alt="alt")
 
       p(data-aos="fade").mb-5 A continuación, en la siguiente tabla, se describe una plantilla donde se indican las partes y las indicaciones básicas para la documentación de casos de uso.
-      
+
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 1.
+        span Plantilla de casos de uso
+          
       .row.justify-content-center.mb-5(data-aos="fade")
         .col-lg-10
           .tabla-a.color-acento-botones
@@ -479,7 +488,7 @@
               tbody
                 tr.white--cell
                   td.strong Nombre del caso de uso
-                  td Indica el nombre del caso de uso. Normalmente, el nombre  expresa el resultado objetivo y observable del caso de uso, como, por  ejemplo, &quot;Imprimir factura&quot;, en el caso de un de un  sistema de ventas.
+                  td Indica el nombre del caso de uso. Normalmente, el nombre  expresa el resultado objetivo y observable del caso de uso, como, por  ejemplo, &quot;imprimir factura&quot;, en el caso de un sistema de ventas.
                 tr.gray--cell
                   td.strong Autor
                   td Persona que dise&ntilde;a el caso de uso.
@@ -502,10 +511,14 @@
                   td.strong Flujo alternativo
                   td Flujos alternativos de ejecuci&oacute;n de casos de uso.
                 tr.white--cell
-                  td.strong PosCondiciones
+                  td.strong PostCondiciones
                   td Son aquellas condiciones que se cumplen cuando finaliza un  caso de uso.
 
       p(data-aos="fade").mb-5 A continuación, se muestra un ejemplo de especificación de casos de uso para el caso de uso #[strong “Crear foro”] utilizando la plantilla propuesta en la tabla anterior.
+
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 2.
+        span Ejemplo especificación de caso de uso foro     
 
       .row.justify-content-center.mb-5(data-aos="fade")
         .col-lg-10
@@ -535,18 +548,12 @@
                   td Al iniciar, el usuario debe estar autenticado en el sistema.
                 tr.white--cell
                   td.strong Flujo normal
-                  td Alumno/Docente
+                  td 1. El actor da clic en la opción nuevo mensaje.<br><br>2. Se muestra un área de texto para escribir el mensaje.<br><br>3. El actor introduce el mensaje.<br><br>4. El sistema verifica datos y los almacena.<br><br>5. El profesor acepta y publica.               
                 tr.gray--cell
-                  td.strong Precondiciones
-                  td 1. El actor da clic en la opción nuevo mensaje.<br><br>2. Se muestra un área de texto para escribir el mensaje.<br><br>3. El actor introduce el mensaje.<br><br>4. El sistema verifica datos y los almacena.<br><br>5. El profesor acepta y publica.
-                tr.white--cell
                   td.strong Flujo alternativo
-                  td Alumno/Docente
-                tr.gray--cell
-                  td.strong Precondiciones
-                  td A. Se hace una comprobación de los datos, si no son correctos, muestra mensaje de corrección.<br><br>B. El profesor rechaza el mensaje, de modo que no es publicado, sino devuelto.
+                  td A. Se hace una comprobación de los datos, si no son correctos, muestra mensaje de corrección.<br><br>B. El profesor rechaza el mensaje, de modo que no es publicado, sino devuelto.               
                 tr.white--cell
-                  td.strong PosCondiciones
+                  td.strong PostCondiciones
                   td Se publica y almacena el mensaje satisfactoriamente.
 
 
@@ -577,7 +584,7 @@
         ul.fa-ul.mb-0
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | #[span.strong.txt--blue Caso de uso:] Adquirir productos.
+            | #[span.strong.txt--blue Caso de uso:] adquirir productos.
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--orange02
@@ -645,7 +652,7 @@
               .bg--mint.shadow.brd--top.p-3
                 h5.text-center.mb-0 Terminar venta
               .p-4
-                p.text-center.mb-0 Para finalizar, el cajero presiona el botón (Terminar Venta), para dar por finalizada la venta. 
+                p.text-center.mb-0 Para finalizar, el cajero presiona el botón (terminar venta), para dar por finalizada la venta. 
 
             .crd.bg--white.brd--rad_01.shadow(x="89%" y="58%" numero="7")
               .bg--mint.shadow.brd--top.p-3

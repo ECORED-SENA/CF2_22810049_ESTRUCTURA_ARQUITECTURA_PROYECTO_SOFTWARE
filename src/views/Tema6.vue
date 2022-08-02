@@ -66,7 +66,7 @@
                 img(src="@/assets/curso/recursos/icon_02.svg", alt="alt").img115
             .col
               h5.text-white.pt-2 Escalabilidad horizontal
-              p.text-white.mb-0 Consiste en optimizar el rendimiento del #[em software] desde un aspecto de mejora global, utilizando una red de servidores, los cuales se los conoce como clúster; en resumen, “entre más usuarios, más clúster”. 
+              p.text-white.mb-0 Consiste en optimizar el rendimiento del #[em software] desde un aspecto de mejora global, utilizando una red de servidores, los cuales se los conoce como #[em clúster]; en resumen, “entre más usuarios, más #[em clúster]”. 
 
     .row.mb-4(data-aos="fade")
       .col-auto

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Implementar la arquitectura de <em>software<em>.',
+    componenteFormativo: 'Implementar la arquitectura de <em>software<em>',
     descripcionCurso:
       'La arquitectura de <em>software</em> es la base donde se cimienta la estructura de un componente o aplicación de <em>software</em> a desarrollar, por esta razón, está orientada a la comprensión de los conceptos más importantes para tener en cuenta en la construcción de dicha estructura y pretende resolver los requerimientos no funcionales de un <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -223,12 +223,6 @@ export default {
     },
     {
       referencia:
-        'Kruchten, P. (1995). Planos Arquitectónicos: El Modelo de “4+1” Vistas de la Arquitectura del <em>Software</em>. IEEE Software, 12(6), p. 42-50.',
-      link:
-        'http://materias.fi.uba.ar/7510/practica/zips/Modelo4_1Krutchen.pdf',
-    },
-    {
-      referencia:
         'Larman, C. (2004). <em>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development. Pearson.</em>',
       link: '',
     },
@@ -269,9 +263,9 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'María Camila García Santamaría',
         cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        centro: 'Dirección general',
       },
     ],
     contenidoInstruccional: [
@@ -289,7 +283,7 @@ export default {
       },
       {
         nombre: 'Zvi Daniel Grosman',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
@@ -329,7 +323,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '---',
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

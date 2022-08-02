@@ -34,15 +34,15 @@
 
           .row(numero="2" titulo="Configuración y despliegue")
             .col
-              p.mb-0 Son controles de seguridad en la configuración del servidor de la aplicación, como la red, conexiones a la web, etc.
+              p.mb-0 Son controles de seguridad en la configuración del servidor de la aplicación, como la red, conexiones a la #[em web], etc.
 
           .row(numero="3" titulo="Gestión de la identidad")
             .col
-              p.mb-0 Son controles de seguridad en la asignación de roles, usuarios, numeración de cuentas y políticas de acceso en la aplicación/web.
+              p.mb-0 Son controles de seguridad en la asignación de roles, usuarios, numeración de cuentas y políticas de acceso en la aplicación/#[em web].
 
           .row(numero="4" titulo="Autenticación")
             .col
-              p.mb-0 Son controles de seguridad enfocados en el acceso a la aplicación/web, como las contraseñas.
+              p.mb-0 Son controles de seguridad enfocados en el acceso a la aplicación/#[em web], como las contraseñas.
 
           .row(numero="5" titulo="Autorización")
             .col
@@ -54,11 +54,11 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="6" titulo="Control de la sesión")
             .col
-              p.mb-0 Son controles de seguridad relacionados con los tiempos de sesión y las cookies. 
+              p.mb-0 Son controles de seguridad relacionados con los tiempos de sesión y las #[em cookies]. 
 
           .row(numero="7" titulo="Validación de entrada de datos")
             .col
-              p.mb-0 Son controles de seguridad en todas las entradas de datos de que disponga la aplicación/web, como formularios de contacto, registros de información, búsquedas, etc.
+              p.mb-0 Son controles de seguridad en todas las entradas de datos de que disponga la aplicación/#[em web], como formularios de contacto, registros de información, búsquedas, etc.
 
           .row(numero="8" titulo="Manejo de errores")
             .col
@@ -70,7 +70,7 @@
 
           .row(numero="10" titulo="Lógica de la aplicación")
             .col
-              p.mb-0 Son controles para examinar la robustez y seguridad de los mecanismos de cifrado que implemente la solución de #[em software].
+              p.mb-0 Son controles de comportamiento de la aplicación frente a usos imprevistos que pueden generar brechas de seguridad.
 
           .row(numero="11" titulo="Pruebas de cliente")
             .col
@@ -81,7 +81,7 @@
           img(src="@/assets/curso/temas/t7/t7_03.svg", alt="alt")
 
     .cajon.cjn--blue.mb-5(data-aos="zoom-in")
-      p.strong Esta es una guía completa, la cual cuenta actualmente con un total de 87 controles diferentes de seguridad, todos relacionados con las categorías antes mencionadas y que permiten generar un estado global y actual de la seguridad de la página web.
+      p.strong Esta es una guía completa, la cual cuenta actualmente con un total de 87 controles diferentes de seguridad, todos relacionados con las categorías antes mencionadas y que permiten generar un estado global y actual de la seguridad de la página #[em web].
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -104,7 +104,7 @@
           
 
           .cajon.cjn--yellow.mb-4
-            p.strong Para aplicaciones móviles, esta fundación cuenta con #[em OWASP Mobile Security Testing Guide MSTG], ya que una aplicación móvil posee una serie de características diferentes a una aplicación web estándar o página web; esta guía se enfoca en auditar aplicativos móviles Android e iOS, la conforman 3 apartados o documentos relacionados entre sí, que son:
+            p.strong Para aplicaciones móviles, esta fundación cuenta con #[em OWASP Mobile Security Testing Guide MSTG], ya que una aplicación móvil posee una serie de características diferentes a una aplicación #[em web] estándar o página #[em web]; esta guía se enfoca en auditar aplicativos móviles Android e iOS, la conforman 3 apartados o documentos relacionados entre sí, que son:
 
           ul.fa-ul
             li
@@ -121,7 +121,7 @@
 
       p(data-aos="fade") Después de hacer la respectiva revisión de los controles, el cliente final puede obtener un estado de la seguridad de su aplicación de forma gráfica, gracias a las tablas y gráficas que se producen en el proceso de la auditoría.
       p(data-aos="fade") El término "aplicación móvil" se refiere a cualquier programa que se ejecuta en un dispositivo móvil. 
-      p(data-aos="fade").mb-5 Hay algunos tipos específicos de aplicaciones móviles de la siguiente manera:ss
+      p(data-aos="fade").mb-5 Hay algunos tipos específicos de aplicaciones móviles de la siguiente manera:
 
 
       .row.justify-content-center.align-items.center.mb-5
@@ -142,7 +142,7 @@
                     figure
                       img(src="@/assets/curso/recursos/icon_04.svg", alt="alt").img75
                   .col
-                    p.mb-0 #[span.strong Aplicación #[em web:]]  interactúa con los servicios web y no interactúa con los componentes del dispositivo.
+                    p.mb-0 #[span.strong Aplicación #[em web:]] interactúa con los servicios #[em web] y no interactúa con los componentes del dispositivo.
             .col-12.mb-4(data-aos="zoom-in")
               .crd.crd--avatarH_02
                 .row.align-items-center
@@ -150,7 +150,7 @@
                     figure
                       img(src="@/assets/curso/recursos/icon_03.svg", alt="alt").img75
                   .col
-                    p.mb-0 #[span.strong Aplicación híbrida: ] Se ejecuta como una aplicación nativa, pero una parte de la aplicación se ejecuta en un navegador web integrado.
+                    p.mb-0 #[span.strong Aplicación híbrida: ] se ejecuta como una aplicación nativa, pero una parte de la aplicación se ejecuta en un navegador #[em web] integrado.
             .col-12(data-aos="zoom-in")
               .crd.crd--avatarH_02
                 .row.align-items-center
@@ -158,7 +158,7 @@
                     figure
                       img(src="@/assets/curso/recursos/icon_04.svg", alt="alt").img75
                   .col
-                    p.mb-0 #[span.strong Aplicación progresiva:] Son páginas web normales, pero tienen la ventaja adicional de permitir que los desarrolladores trabajen sin conexión y obtengan acceso al #[em hardware] del dispositivo móvil.
+                    p.mb-0 #[span.strong Aplicación progresiva:] son páginas #[em web] normales, pero tienen la ventaja adicional de permitir que los desarrolladores trabajen sin conexión y obtengan acceso al #[em hardware] del dispositivo móvil.
         .col-lg-5.col-8(data-aos="flip-left")
           figure
             img(src="@/assets/curso/temas/t7/t7_06.png", alt="alt")

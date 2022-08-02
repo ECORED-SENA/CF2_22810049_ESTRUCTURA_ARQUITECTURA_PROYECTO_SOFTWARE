@@ -171,7 +171,7 @@
           figure
             img(src='@/assets/curso/temas/t5/t5_05.png', alt='')
         .col-lg-8(data-aos="fade")
-          p También se la conoce con el nombre SQuaRE ( #[emSystem and software Quality Requirements and Evaluation]) “Evaluación y requisitos de calidad del #[em software] y del sistema”. 
+          p También se la conoce con el nombre SQuaRE (#[em System and software Quality Requirements and Evaluation]) “Evaluación y requisitos de calidad del #[em software] y del sistema”. 
           .cajon.cjn--yellow
             p.strong El objetivo de este estándar es la creación de un marco o guía de trabajo para evaluar la calidad del producto de #[em software] o aplicación, esta norma es la evolución de las normas ISO/IEC 9126 e ISO/IEC 14598; se compone principalmente por: conceptos, modelos o patrones de referencia y definiciones, divididos en cinco áreas, así:
                   
@@ -228,6 +228,9 @@
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-8
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 3.
+          span Subcaracterísticas relacionadas con el proceso de calidad ISO/IEC 25010
         .tabla-a.color-acento-botones
           table
             thead

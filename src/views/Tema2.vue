@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Introducción a la educción de requisitos
+      h1 Patrones de diseño definición y clasificación
 
     .bg_img_02
       figure(data-aos="zoom-in")
@@ -67,7 +67,7 @@
             .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
               .cont
                 .numb(data-number="01")
-                h4 Abstract Factory
+                h4 <em>Abstract Factory</em>
                 p En este patrón, una interfaz crea conjuntos o familias de objetos relacionados, sin especificar el nombre de la clase.
             .col-lg-3.col-6
               figure
@@ -80,14 +80,14 @@
             .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
               .cont
                 .numb(data-number="02")
-                h4 Builder Patterns
+                h4 <em>Builder Patterns</em>
                 p Permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de construcción. Se utiliza para la creación etapa por etapa de un objeto complejo combinando objetos simples. La creación final de objetos depende de las etapas del proceso creativo, pero es independiente de otros objetos.
 
           .row.justify-content-around.align-items-center.pt-5
             .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
               .cont
                 .numb(data-number="03")
-                h4 Factory Method
+                h4 <em>Factory Method</em>
                 p Proporciona una interfaz para crear objetos en una superclase, pero permite que las subclases alteren el tipo de objetos que se crearán. Proporciona instanciación de objetos implícita a través de interfaces comunes.
             .col-lg-3.col-6
               figure
@@ -100,14 +100,14 @@
             .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
               .cont
                 .numb(data-number="04")
-                h4 Prototype
+                h4 <em>Prototype</em>
                 p Permite copiar objetos existentes sin hacer que su código dependa de sus clases. Se utiliza para restringir las operaciones de memoria / base de datos manteniendo la modificación al mínimo utilizando copias de objetos.
 
           .row.justify-content-around.align-items-center.pt-5
             .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
               .cont
                 .numb(data-number="05")
-                h4 Singleton
+                h4 <em>Singleton</em>
                 p Este patrón de diseño restringe la creación de instancias de una clase a un único objeto.
             .col-lg-3.col-6
               figure
@@ -129,7 +129,7 @@
           .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="01")
-              h4 Adapter
+              h4 <em>Adapter</em>
               p Se utiliza para vincular dos interfaces que no son compatibles y utilizan sus funcionalidades. El adaptador permite que las clases trabajen juntas de otra manera que no podrían al ser interfaces incompatibles.
           .col-lg-3.col-6
             figure
@@ -142,14 +142,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="02")
-              h4 Bridge
+              h4 <em>Bridge</em>
               p En este patrón, hay una alteración estructural en las clases principales y de implementador de interfaz, sin tener ningún efecto entre ellas. Estas dos clases pueden desarrollarse de manera independiente y solo se conectan utilizando una interfaz como puente.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="03")
-              h4 Composite
+              h4 <em>Composite</em>
               p Se usa para agrupar objetos como un solo objeto. Permite componer objetos en estructuras de árbol y luego trabajar con estas estructuras como si fueran objetos individuales.
           .col-lg-3.col-6
             figure
@@ -162,14 +162,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="04")
-              h4 Decorator
+              h4 <em>Decorator</em>
               p Este patrón restringe la alteración de la estructura del objeto mientras se le agrega una nueva funcionalidad. La clase inicial permanece inalterada mientras que una clase decorator proporciona capacidades adicionales.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="05")
-              h4 Facade
+              h4 <em>Facade</em>
               p Proporciona una interfaz simplificada para una biblioteca, un marco o cualquier otro conjunto complejo de clases.
           .col-lg-3.col-6
             figure
@@ -182,14 +182,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="06")
-              h4 Flyweight
-              p El patrón Flyweight se usa para reducir el uso de memoria y mejorar el rendimiento al reducir la creación de objetos. El patrón busca objetos similares que ya existen para reutilizarlos en lugar de crear otros nuevos que sean similares.
+              h4 <em>Flyweight</em>
+              p El patrón <em>Flyweight</em> se usa para reducir el uso de memoria y mejorar el rendimiento al reducir la creación de objetos. El patrón busca objetos similares que ya existen para reutilizarlos en lugar de crear otros nuevos que sean similares.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="08")
-              h4 Proxy
+              h4 <em>Proxy</em>
               p Se utiliza para crear objetos que pueden representar funciones de otras clases u objetos, y la interfaz se utiliza para acceder a estas funcionalidades.
           .col-lg-3.col-6
             figure
@@ -209,8 +209,8 @@
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="01")
-              h4 Chain of responsibility
-              p El patrón de diseño Chain of Responsibility es un patrón de comportamiento que evita acoplar el emisor de una petición a su receptor, dando a más de un objeto la posibilidad de responder a una petición.
+              h4 <em>Chain of responsibility</em>
+              p El patrón de diseño <em>Chain of Responsibility</em> es un patrón de comportamiento que evita acoplar el emisor de una petición a su receptor, dando a más de un objeto la posibilidad de responder a una petición.
           .col-lg-4.col-6
             figure
               img(src='@/assets/curso/temas/t2/t2_18.svg', alt='').img365.m-auto
@@ -222,14 +222,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="02")
-              h4 Command
+              h4 <em>Command</em>
               p Convierte una solicitud en un objeto independiente que contiene toda la información sobre la solicitud. Esta transformación permite parametrizar métodos con diferentes solicitudes, retrasar o poner en cola la ejecución de una solicitud y respaldar operaciones que no se pueden deshacer.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="03")
-              h4 Interpreter
+              h4 <em>Interpreter</em>
               p Se utiliza para evaluar el lenguaje o la expresión al crear una interfaz que indique el contexto para la interpretación.
           .col-lg-4.col-6
             figure
@@ -242,14 +242,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="04")
-              h4 Iterator
+              h4 <em>Iterator</em>
               p Su utilidad es proporcionar acceso secuencial a un número de elementos presentes dentro de un objeto de colección, sin realizar ningún intercambio de información relevante.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="05")
-              h4 Mediator
+              h4 <em>Mediator</em>
               p Este patrón proporciona una comunicación fácil a través de su clase, que permite la comunicación para varias clases.
           .col-lg-4.col-6
             figure
@@ -262,14 +262,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="06")
-              h4 Memento
+              h4 <em>Memento</em>
               p El patrón Memento permite recorrer elementos de una colección sin exponer su representación subyacente.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="07")
-              h4 Observer
+              h4 <em>Observer</em>
               p Permite definir un mecanismo de suscripción para notificar a varios objetos sobre cualquier evento que le suceda al objeto que está siendo observado.
           .col-lg-4.col-6
             figure
@@ -282,14 +282,14 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="08")
-              h4 State
-              p En el patrón State, el comportamiento de una clase varía con su estado y, por lo tanto, está representado por el objeto de contexto.
+              h4 <em>State</em>
+              p En el patrón <em>State</em>, el comportamiento de una clase varía con su estado y, por lo tanto, está representado por el objeto de contexto.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="09")
-              h4 Strategy
+              h4 <em>Strategy</em>
               p Permite definir una familia de algoritmos, poner cada uno de ellos en una clase separada y hacer que sus objetos sean intercambiables.
           .col-lg-3.col-6
             figure
@@ -302,15 +302,15 @@
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont
               .numb(data-number="10")
-              h4 Template method
+              h4 <em>Template method</em>
               p Se usa con componentes que tienen similitud, donde se puede implementar una plantilla del código para probar ambos componentes. El código se puede cambiar con pequeñas modificaciones.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
             .cont.ps-5
               .numb(data-number="11")
-              h4 Visitor
-              p El propósito de un patrón Visitor es definir una nueva operación sin introducir las modificaciones a una estructura de objeto existente.
+              h4 <em>Visitor</em>
+              p El propósito de un patrón <em>Visitor</em> es definir una nueva operación sin introducir las modificaciones a una estructura de objeto existente.
           .col-lg-3.col-6
             figure
               img(src='@/assets/curso/temas/t2/t2_28.svg', alt='').img350.m-auto
@@ -331,7 +331,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_29.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[span.txt--blue.strong Según Bertucelli (2019)], #[span.strong “Esta arquitectura se destaca por ser fácil de implementar en el comienzo del proyecto y fácil de entender para principiantes en el desarrollo de #[em software]. Lo que propone la arquitectura de capas es pensar nuestro sistema en capas y cada capa debe exponer en forma clara las operaciones que puede realizar. Estas operaciones se deben exponer mediante un api que nos diga qué servicio ofrece esa capa y cuál será su retorno, sin importar cómo esté implementado”.] 
+        p.mb-0 #[span.txt--blue.strong Según Bertucelli (2019)], #[span.strong “Esta arquitectura se destaca por ser fácil de implementar en el comienzo del proyecto y fácil de entender para principiantes en el desarrollo de #[em software]. Lo que propone la arquitectura de capas es pensar nuestro sistema en capas y cada capa debe exponer en forma clara las operaciones que puede realizar. Estas operaciones se deben exponer mediante un #[em API] que nos diga qué servicio ofrece esa capa y cuál será su retorno, sin importar cómo esté implementado”.] 
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4(data-aos="fade")
@@ -340,7 +340,7 @@
             figure
               img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
           .col
-            p Por ejemplo, una URL es un api que me dice qué datos necesito ingresar y qué retornará, o también puede ser una clase con métodos públicos, etc. Pueden existir “n” capas, pero cada una debe tener una responsabilidad única. Una separación muy utilizada es la de tres capas “presentación”, “lógica de negocio” y “acceso a datos”.
+            p Por ejemplo, una #[em URL] es un #[em API] que me dice qué datos necesito ingresar y qué retornará, o también puede ser una clase con métodos públicos, etc. Pueden existir “n” capas, pero cada una debe tener una responsabilidad única. Una separación muy utilizada es la de tres capas “presentación”, “lógica de negocio” y “acceso a datos”.
         .cajon.cjn--yellow
           p #[strong “Una capa es un conjunto de “cosas” que tienen cierta responsabilidad. Por ejemplo, una capa puede ser un conjunto de clases, agrupadas en un paquete, dentro de nuestro programa, que representa cierta responsabilidad, o también puede ser un jar que se comunica con otros y cada jar representa una capa, o puede ser un sistema y cada sistema es en sí una capa. Cuando nos referimos a capas, es una abstracción de responsabilidades”] #[span.txt--blue.strong (Bertucelli, 2019).]
       .col-lg-4.col-9(data-aos="zoom-in")
@@ -382,7 +382,7 @@
 
       .row.mb-3(data-aos="fade")
         .col-auto
-          h4.cstmH4 Arquitectura de capas
+          h4.cstmH4 Arquitectura de eventos
 
       .bloque-texto-g.bg--mint.p-3.p-sm-4.p-md-5(data-aos="zoom-in").mb-5
         .bloque-texto-g__img(
@@ -400,7 +400,7 @@
                   img(src="@/assets/curso/recursos/icon_01.svg", alt="alt").img115
               .col
                 h5.text-white.pt-2 Modelo de publicación y suscripción
-                p.text-white.mb-0 es una infraestructura de mensajería que se basa en suscripciones a un flujo de eventos. Con este modelo, una vez que se genera o publica un evento, este se envía a los suscriptores que necesitan estar informados al respecto.
+                p.text-white.mb-0 Es una infraestructura de mensajería que se basa en suscripciones a un flujo de eventos. Con este modelo, una vez que se genera o publica un evento, este se envía a los suscriptores que necesitan estar informados al respecto.
         .col-lg-6(data-aos="flip-left")
           .crd.crd--avatarH
             .row
@@ -409,7 +409,7 @@
                   img(src="@/assets/curso/recursos/icon_02.svg", alt="alt").img115
               .col
                 h5.text-white.pt-2 Modelo de flujo de eventos
-                p.text-white.mb-0 con este modelo, los eventos se escriben en un registro. Los consumidores no se suscriben a un flujo de eventos, sino que pueden leerlo desde cualquiera de sus partes y unirse a él en cualquier momento”.
+                p.text-white.mb-0 Con este modelo, los eventos se escriben en un registro. Los consumidores no se suscriben a un flujo de eventos, sino que pueden leerlo desde cualquiera de sus partes y unirse a él en cualquier momento”.
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade")

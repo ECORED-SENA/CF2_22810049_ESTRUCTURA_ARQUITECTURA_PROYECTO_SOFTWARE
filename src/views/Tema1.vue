@@ -57,9 +57,9 @@
           LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="Comunicación")
               .col-12
-                p.mb-0 Este es el momento en el que un cliente solicita un producto de #[em software] determinado.<br><br>Nos contacta para plasmar sus necesidades concretas y presenta su solicitud de desarrollo de #[em software].
+                p.mb-0 Este es el momento en el que un cliente solicita un producto de #[em software] determinado.<br><br>Nos contacta para plasmar sus necesidades concretas y presentar su solicitud de desarrollo de #[em software].
 
-            .row(numero="2" titulo="Comunicación")
+            .row(numero="2" titulo="Planificación y análisis")
               .col-12
                 p El desarrollo de #[em software] comienza con una fase inicial de planificación, incluyendo un análisis de requisitos. Nos fijamos en los requisitos que piden los clientes para estudiar cuáles están poco claros, incompletos, ambiguos o contradictorios.
                 .cajon.cjn--yellow
@@ -71,38 +71,38 @@
                 .cajon.cjn--yellow
                   p Se investiga la viabilidad financiera y tecnológica y se utilizan algoritmos para saber si el proyecto de #[em software] es factible o no.
 
-            .row(numero="4" titulo="Diseño")
+            .row(numero="4" titulo="Análisis del sistema")
               .col-12
-                p.mb-0 En esta fase, ya se comienza a visualizar la solución con la ayuda de las anteriores fases. Se hace un diseño lógico y otro físico. Se crean metadatos, diagramas o pseudocódigos. La duración de esta fase varía de un proyecto a otro.
+                p.mb-0 En este paso, el equipo del proyecto asigna recursos y planifica el tiempo de duración del proyecto. Se buscan limitaciones del producto y se identifican los impactos del proyecto sobre toda la organización en su conjunto. 
 
       .row.justify-content-center.mb-5    
         .col-lg-7.mb-4(data-aos="fade")
           LineaTiempoD.color-acento-contenido
-            .row(numero="6" titulo="Codificación")
+            .row(numero="5" titulo="Codificación")
               .col-12
                 p Esta fase también es denominada “fase de programación” o “fase de desarrollo”, es en la que se elige el lenguaje de programación más conveniente y se desarrollan programas ejecutables y sin errores, de manera eficiente.
                 .cajon.cjn--yellow
                   p Nuestro enfoque es construir trozos de funcionalidad. Por lo tanto, entregar unidades de funcionalidad concisa. Al final de esta fase, se puede obtener un PMV (Producto Mínimo Viable) o el #[em software] completamente desarrollado y listo para implementarse. 
 
-            .row(numero="7" titulo="Integración")
+            .row(numero="6" titulo="Integración")
               .col-12
                 p.mb-0 El #[em software] puede necesitar estar integrado con bibliotecas, bases de datos o con otros programas. Esta fase del SDLC integra el #[em software] con las entidades del mundo exterior.
 
-            .row(numero="8" titulo="Pruebas")
+            .row(numero="7" titulo="Pruebas")
               .col-12
                 p Esta fase, junto con la fase de desarrollo, entra en un ciclo continuo hasta que se completan el desarrollo y las pruebas. Probamos, probamos y luego volvemos a probar, tanto como sea necesario, hasta que la funcionalidad sea del 100 %. 
                 .cajon.cjn--yellow
                   p Además, se hacen evaluaciones para evitar errores, incluyendo la evaluación de módulos, programas, productos, y finalmente, evaluación con el cliente final. Encontrar errores y arreglarlos a tiempo es la clave para conseguir un #[em software] confiable y eficiente.
 
-            .row(numero="9" titulo="Implementación")
+            .row(numero="8" titulo="Implementación")
               .col-12
                 p.mb-0 Aquí se instala el #[em software], se evalúa la integración, la adaptabilidad, la portabilidad y se instalan las configuraciones posteriores necesarias.
 
-            .row(numero="10" titulo="Formación")
+            .row(numero="9" titulo="Formación")
               .col-12
                 p.mb-0 Esta es la fase más interesante, la adopción del usuario es muy importante y para ello se ofrece la capacitación inicial para cada usuario. Es importante comprobar el nivel de uso, la experiencia de usuario y resolver cualquier dificultad que pueda surgir a la hora de enfrentarse a un nuevo sistema o plataforma.
 
-            .row(numero="11" titulo="Mantenimiento y funcionamiento")
+            .row(numero="10" titulo="Mantenimiento y funcionamiento")
               .col-12
                 p.mb-0 Por último, pero no menos importante, el mantenimiento es uno de los elementos clave de éxito de cualquier proyecto. En esta fase, se minimizan pequeños errores, se confirma el buen funcionamiento del #[em software], su eficiencia y estabilidad. El proyecto ya está completado y necesitamos monitorear y mantener de forma continua para garantizar que el proyecto siga ejecutándose bien.
                 
@@ -110,13 +110,7 @@
           figure
             img(src="@/assets/curso/temas/t1/t1_07.svg", alt="alt")
 
-    .crd.bg--yellow.p-4(data-aos="zoom-in")
-      .row.align-items-center
-        .col-auto.d-none.d-lg-flex
-          figure
-            img(src="@/assets/curso/recursos/square_06.svg", alt="alt").img30
-        .col
-          p.mb-0 Ahora antes de continuar es importante complementar con las fases del del Ciclo de vida de #[em software], las mismas son necesarias para la validación del desarrollo de #[em software].             
+               
                                                            
       
 </template>

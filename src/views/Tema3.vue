@@ -44,7 +44,7 @@
           .hr_line(data-aos="fade")
           li(data-aos="fade")
             i.fa-li.fas.fa-check-circle.txt--orange02
-            | #[span.txt--blue.strong Evolución:] Estructurado, Orientado a objetos, Orientado a componentes, Orientado a servicios.
+            | #[span.txt--blue.strong Evolución:] Estructurado, orientado a objetos, orientado a componentes, orientado a servicios.
 
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
