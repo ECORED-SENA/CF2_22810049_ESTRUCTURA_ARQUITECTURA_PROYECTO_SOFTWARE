@@ -224,7 +224,7 @@
           figure
             img(src="@/assets/curso/recursos/square_06.svg", alt="alt").img30
         .col
-          p.mb-0 Tenga en cuenta, a su vez, que, de sus ochos características, cada una cuenta con algunas subcaracterísticas relacionadas con su funcionamiento, como se puede ver en la siguiente tabla:
+          p.mb-0 Tenga en cuenta, a su vez, que, de sus ocho características, cada una cuenta con algunas subcaracterísticas relacionadas con su funcionamiento, como se puede ver en la siguiente tabla:
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-8
@@ -348,7 +348,7 @@
             .row.justify-content-around.align-items-center.pt-5
               .col-lg-8.mb-4.mb-lg-0                          
                 h4 Vista de desarrollo
-                p Se enfoca en el comportamiento del tiempo de ejecución del sistema y se ocupa de los elementos dinámicos del sistema. Explica los procesos del sistema y cómo estos se comunican. La concurrencia , la distribución, el integrador, el rendimiento y la escalabilidad se abordan en la vista del proceso. El diagrama de secuencia, el diagrama de comunicación y el diagrama de actividad son todos diagramas UML que se pueden usar para describir una vista de proceso.
+                p Se enfoca en el comportamiento del tiempo de ejecución del sistema y se ocupa de los elementos dinámicos del sistema. Explica los procesos del sistema y cómo estos se comunican. La concurrencia, la distribución, el integrador, el rendimiento y la escalabilidad se abordan en la vista del proceso. El diagrama de secuencia, el diagrama de comunicación y el diagrama de actividad son todos diagramas UML que se pueden usar para describir una vista de proceso.
               .col-lg-3.col-4
                 figure
                   img(src='@/assets/curso/temas/t5/t5_11.svg', alt='').img350.m-auto

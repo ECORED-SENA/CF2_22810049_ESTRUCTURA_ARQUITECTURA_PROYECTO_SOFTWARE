@@ -57,7 +57,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Patrones de diseño definición y clasificación',
+        titulo: 'Patrones de diseño, definición y clasificación',
         desarrolloContenidos: true,
       },
       {
@@ -202,12 +202,12 @@ export default {
     },
     {
       referencia:
-        'Clements, P., Bachmann, F., Bass, L., Garlan, D. y Ivers, J. (2010). Documenting Software Architectures: Views and Beyond. Addison-Wesley Professional.',
+        'Clements, P., Bachmann, F., Bass, L., Garlan, D. y Ivers, J. (2010). <em>Documenting Software Architectures: Views and Beyond.</em> Addison-Wesley Professional.',
       link: '',
     },
     {
       referencia:
-        'Cueva, J. (1999). Calidad del Software. Universidad Nacional de la Pampa.        ',
+        'Cueva, J. (1999). Calidad del <em>Software</em>. Universidad Nacional de la Pampa.        ',
       link: '',
     },
     {
@@ -233,12 +233,12 @@ export default {
     },
     {
       referencia:
-        'Node.js (2022). Node.js assessment of OpenSSL 3 May 2022 security releases.',
+        'Node.js (2022). Node.js <em>assessment of OpenSSL 3 May 2022 security releases.</em>',
       link: 'https://nodejs.org/en/',
     },
     {
       referencia:
-        'React.js. (2021). React – A JavaScript library for building user interfaces.',
+        'React.js. (2021). <em>React – A JavaScript library for building user interfaces.</em>',
       link: 'https://reactjs.org/',
     },
     {
@@ -311,10 +311,51 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '---',
+        nombre: 'Erika Viviana Sandoval Roja',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Magdi Khalifah',

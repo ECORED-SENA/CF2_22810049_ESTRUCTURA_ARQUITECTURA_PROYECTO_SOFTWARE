@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptos básicos de arquitectura de <em>software</em>
-        p.mb-4 Afianzar algunos conceptos abordados en el componente formativo “Introducción a la Arquitectura de <em>Software</em>”.
+          h2 Conceptos sobre patrones de diseño
+        p.mb-4 Afianzar los conceptos de patrones de diseño.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

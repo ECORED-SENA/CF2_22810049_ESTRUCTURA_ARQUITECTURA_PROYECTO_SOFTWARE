@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Patrones de diseño definición y clasificación
+      h1 Patrones de diseño, definición y clasificación
 
     .bg_img_02
       figure(data-aos="zoom-in")
@@ -163,7 +163,7 @@
             .cont
               .numb(data-number="04")
               h4 <em>Decorator</em>
-              p Este patrón restringe la alteración de la estructura del objeto mientras se le agrega una nueva funcionalidad. La clase inicial permanece inalterada mientras que una clase decorator proporciona capacidades adicionales.
+              p Este patrón restringe la alteración de la estructura del objeto mientras se le agrega una nueva funcionalidad. La clase inicial permanece inalterada mientras que una clase #[em decorator] proporciona capacidades adicionales.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-6.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative
@@ -263,7 +263,7 @@
             .cont.ps-5
               .numb(data-number="06")
               h4 <em>Memento</em>
-              p El patrón Memento permite recorrer elementos de una colección sin exponer su representación subyacente.
+              p El patrón #[em Memento] permite recorrer elementos de una colección sin exponer su representación subyacente.
 
         .row.justify-content-around.align-items-center.pt-5
           .col-lg-7.mb-4.mb-lg-0.ps-5.ps-lg-2.position-relative

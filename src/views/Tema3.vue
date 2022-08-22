@@ -54,7 +54,7 @@
       .col-auto
         h3.cstmH3 Catálogo de estilos arquitectónicos
 
-    p(data-aos="fade") Hay diferentes tipos de arquitectura, por lo cual le presentamos el catálogo de los estilos arquitectónicos más comunes, a través del siguiente video
+    p(data-aos="fade") Hay diferentes tipos de arquitectura, por lo cual le presentamos el catálogo de los estilos arquitectónicos más comunes, a través del siguiente video.
 
     figure
       .video

@@ -201,7 +201,7 @@
           .row.justify-content-around
             .col-lg-6.mb-4.mb-lg-0
               h4 Análisis de vulnerabilidad
-              p Aquí, se busca vulnerabilidades en una aplicación, el análisis estático implica un análisis detallado del código fuente, se puede hacer de forma manual o automática; este dinámico es más sofisticado, ya que se realiza durante el tiempo de ejecución y ayuda a los probadores o testers a ver detalles como puntos de entrada vulnerables, características débiles, etc.  
+              p Aquí, se busca vulnerabilidades en una aplicación, el análisis estático implica un análisis detallado del código fuente, se puede hacer de forma manual o automática; este dinámico es más sofisticado, ya que se realiza durante el tiempo de ejecución y ayuda a los probadores o #[em testers] a ver detalles como puntos de entrada vulnerables, características débiles, etc.  
             .col-lg-3.col-6
               figure
                 img(src='@/assets/curso/temas/t7/t7_11.svg', alt='')
@@ -229,7 +229,7 @@
             figure
               img(src="@/assets/curso/recursos/square_07.svg", alt="alt").img75
           .col
-            p Aquí, se encuentran las credenciales de usuario, como contraseña o PIN, información confidencial como SIM, token de #[em hardware], generador de contraseña, biometría (voz, retina, huella digital, etc.). Aquí, se debe tener en cuenta lo siguiente:
+            p Aquí, se encuentran las credenciales de usuario, como contraseña o PIN, información confidencial como SIM, #[em token] de #[em hardware], generador de contraseña, biometría (voz, retina, huella digital, etc.). Aquí, se debe tener en cuenta lo siguiente:
                 
         SlyderF.cstmSlyderF(columnas="col-lg-6 col-xl-4")
             .crd.bg--white.brd--rad_02.shadow.p-4

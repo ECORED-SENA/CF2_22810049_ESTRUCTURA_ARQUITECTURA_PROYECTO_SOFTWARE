@@ -97,7 +97,7 @@
               figure
                 img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
             .col  
-              p.mb-0 Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo “stickman” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema, el cuál será el encargado de realizar una función.
+              p.mb-0 Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo &quot; #[em stickman] &quot; con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema, el cuál será el encargado de realizar una función.
           p.mb-4 Los nombres de los actores normalmente inician con Mayúscula.
 
           h4(data-aos="fade") Existen varios tipos de actores:
@@ -622,7 +622,7 @@
               .bg--mint.shadow.brd--top.p-3
                 h5.text-center.mb-0 Código Producto
               .p-4
-                p.text-center.mb-0 El cajero deberá, para cada producto, ingresar el código del producto
+                p.text-center.mb-0 El cajero deberá, para cada producto, ingresar el código del producto.
 
             .crd.bg--white.brd--rad_01.shadow(x="90.5%" y="23.5%" numero="2")
               .bg--mint.shadow.brd--top.p-3
@@ -658,7 +658,7 @@
               .bg--mint.shadow.brd--top.p-3
                 h5.text-center.mb-0 Efectuar pago
               .p-4
-                p.text-center.mb-0 Por último, se procederá al pago
+                p.text-center.mb-0 Por último, se procederá al pago.
             
 
 

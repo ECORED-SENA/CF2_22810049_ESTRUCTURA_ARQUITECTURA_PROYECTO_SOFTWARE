@@ -17,7 +17,7 @@
             figure
               img(src="@/assets/curso/recursos/square_05.svg", alt="alt").img30
           .col
-            p.mb-0 Es necesario tener en cuenta el concepto de calidad; según la RAE, es el grado en el que un conjunto de características propias de un objeto, llámese “servicio, proceso, producto, sistema, organización, o recurso, cumple con los requisitos, estándares o métricas definidas por una entidad de estandarización.
+            p.mb-0 Es necesario tener en cuenta el concepto de calidad; según la RAE, es el grado en el que un conjunto de características propias de un objeto, llámese servicio, proceso, producto, sistema, organización, o recurso, cumple con los requisitos, estándares o métricas definidas por una entidad de estandarización.
         .cajon.cjn--yellow.mb-4
           p.strong Para los términos de calidad de producción de #[em software], se pueden verificar utilizando las siguientes normas o estándares, de las cuales ya ha comenzado a conocer algunas en el punto previo, siendo las más conocidas:
         ul.fa-ul
